@@ -18,6 +18,7 @@ body{
     margin-right: 100px;
     margin-top: 0px;
     box-shadow: black 0px 0px 25px;
+    height: 3000px;
 }
 
 
@@ -74,6 +75,8 @@ article.img{
     margin-top: 100px;
     text-align: center;
     border-radius: 20px;
+    border: rgba(0,0,0,.6) 2px inset;
+    box-shadow: gray 0px 0px 20px in;
 }
 
 
@@ -100,10 +103,9 @@ article.img{
 .img {
     color: black;
     position: relative;
-    background: white;
+    background: rgba(0,0,0,.2);
     overflow: hidden;
-    font-weight: bolder;
-    
+    font-weight: bolder;  
 }
 h1{
     font-size: 2.5em;
@@ -116,9 +118,64 @@ div#what, div#benefits{
 }
 div#what p, div#benefits p{
     padding-top: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-div{
-    outline: red 2px solid;
+
+/* Choice Styles */
+div#how{
+    width:100%;
+    background-color: rgba(8, 61, 1, 0.8);
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-top: black 2px inset;
+    border-bottom: black 2px inset;
+    box-shadow: grey 0px 0px 10px inset;
+}
+div#how p{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div#oils_p, div#edibles_p, div#capsules_p{
+    display: block;
+    float: right;
+    margin-right: 80px;
+}
+div#oils_p h2, div#edibles_p h2, div#capsules_p h2{
+    text-align: center;
+}
+
+div#oils_img, div#edibles_img, div#capsules_img{
+    position: absolute;
+    display: block;
+    float: left;
+    margin-left: 100px;
+    background-color: rgb(8, 61, 1);
+    width:300px;
+    height: 400px;
+}
+div#oils_img{
+    margin-top: 10px;
+}
+div#oils_p{
+    margin-top: 40px;
+}
+div#edibles_img{
+    margin-top: 50px;
+}
+div#edibles_p{
+    margin-top: 90px;
+}
+div#capsules_img{
+    margin-top: 110px;
+}
+div#capsules_p{
+    margin-top: 180px;
 }
